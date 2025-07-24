@@ -16,6 +16,8 @@ a{
 }
 a:hover{
     color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 15px #00f;
+    transition: text-shadow 0.3s ease;
 }
 .nav-links{
   list-style-type: none;
